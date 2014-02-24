@@ -1,0 +1,15 @@
+{
+  "name": "tail-serve",
+  "version": "0.0.1",
+  "description": "stream a file `tail` over password protected http",
+  "main": "index.js",
+  "bin": {
+    "log-serve": "./server.js"
+  },
+  "author": "max ogden",
+  "license": "BSD",
+  "dependencies": {
+    "bintail": "0.0.1",
+    "basic": "0.0.1"
+  }
+}
