@@ -10,5 +10,17 @@
   "license": "BSD",
   "dependencies": {
     "basic": "0.0.1"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/tail-serve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/tail-serve/issues"
+  },
+  "homepage": "https://github.com/maxogden/tail-serve"
 }
