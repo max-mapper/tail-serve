@@ -1,7 +1,8 @@
 {
   "name": "tail-serve",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "stream a file's tail over password protected http",
+  "keywords": ["logging", "tail", "range"],
   "main": "index.js",
   "bin": {
     "tail-serve": "./server.js"
@@ -9,12 +10,12 @@
   "author": "max ogden",
   "license": "BSD",
   "dependencies": {
-    "basic": "0.0.1"
+    "basic": "~0.0.1",
+    "debug": "~0.7.4"
   },
   "scripts": {
     "start": "node server.js"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/maxogden/tail-serve.git"
